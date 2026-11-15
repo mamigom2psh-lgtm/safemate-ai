@@ -1,0 +1,38 @@
+
+> safemate-ai@1.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(2,44): error TS2307: Cannot find module './types' or its corresponding type declarations.
+src/components/Coach.tsx(2,74): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/Dashboard.tsx(2,95): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/Dashboard.tsx(3,44): error TS2307: Cannot find module '../lib/format' or its corresponding type declarations.
+src/components/Reports.tsx(4,81): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/Reports.tsx(5,60): error TS2307: Cannot find module '../lib/format' or its corresponding type declarations.
+src/components/RiskGauge.tsx(1,32): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/Simulator.tsx(2,83): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/Simulator.tsx(3,44): error TS2307: Cannot find module '../lib/format' or its corresponding type declarations.
+src/components/StatusBadge.tsx(2,32): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/components/TopBar.tsx(3,30): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/hooks/useDrivingSession.ts(2,88): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/hooks/useDrivingSession.ts(49,53): error TS7006: Parameter 'total' implicitly has an 'any' type.
+src/hooks/useDrivingSession.ts(49,60): error TS7006: Parameter 'sample' implicitly has an 'any' type.
+src/hooks/useDrivingSession.ts(51,92): error TS7006: Parameter 'sample' implicitly has an 'any' type.
+src/lib/risk.ts(7,8): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/lib/risk.ts(20,47): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(21,45): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(22,50): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(52,47): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(53,39): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(54,46): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(86,47): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(87,41): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(88,46): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(107,52): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(108,47): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/risk.ts(109,43): error TS7006: Parameter 'sample' implicitly has an 'any' type.
+src/lib/risk.ts(116,35): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/lib/risk.ts(116,40): error TS7006: Parameter 'value' implicitly has an 'any' type.
+src/lib/simulation.ts(1,56): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/lib/storage.ts(1,86): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/lib/storage.ts(68,28): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/lib/storage.ts(69,33): error TS7006: Parameter 'sample' implicitly has an 'any' type.
